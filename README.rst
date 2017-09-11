@@ -2,17 +2,24 @@
 .. _osgEarth: https://github.com/gwaldron/osgearth
 .. _SIMDIS: https://simdis.nrl.navy.mil
 .. _Pelican Mapping: http://www.pelicanmapping.com
+.. _Read the Docs site: http://emminizer-testing.readthedocs.io/en/latest/
+.. |docs| image:: https://readthedocs.org/projects/emminizer-testing/badge/?version=latest
+    :alt: Documentation Status
+    :scale: 100%
+    :target: http://emminizer-testing.readthedocs.io/en/latest/
 
 **********
 SIMDIS SDK
 **********
 
+|docs|
+
 ..
    contents::
    :maxdepth: 2
 
-About
-=====
+Introduction
+============
 
 The SIMDIS Software Development Kit (SDK) is an open source C++ framework
 providing functionality to create 3D scenes consisting of objects, whose
@@ -36,50 +43,11 @@ Laboratory.  For more information visit:
 
   https://simdis.nrl.navy.mil
 
-
-Installation
-============
-The SIMDIS SDK is provided as a package containing C++ source code for use
-with Windows and Linux operating systems.  Precompiled binaries for use with
-Microsoft Visual Studio have also been provided for your convenience.  See
-the file [INSTALL.md](INSTALL.md) for detailed information about supported
-systems/compilers, third party dependencies, and installation instructions.
-
-
-Usage
-=====
-The SIMDIS SDK source distribution comes with a number of example programs as
-well as a sample data set.  The example which illustrates the most common
-usage of the SIMDIS SDK is the Platform Symbology example.  Detailed tutorials
-describing SIMDIS SDK use will be added at a later date.
-
-HTML based API documentation for the SIMDIS SDK source code can be found in
-the `Doc` subdirectory.  This documentation describes the different software
-components provided by the SDK.
-
 The SIMDIS SDK provides support for loading all 3D model formats supported by
 OpenSceneGraph_ (OpenFlight, 3D Studio, Wavefront OBJ, etc), loading the
 SIMDIS .db Terrain and Imagery files, and streaming terrain and imagery data
-from the ReadyMap server product developed by `Pelican Mapping`_ using osgEarth_.
+from the ReadyMap server product developed by `Pelican Mapping <http://www.pelicanmapping.com>`_ using osgEarth_.
 
-The 3D models provided with the SIMDIS SDK sample data package have all been
-converted to the native OpenScenegraph .ive binary file format, which embeds
-the 3D model's geometry data and associated texture files within a single,
-easy to distribute file.
-
-
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Pages
-
-   test
-
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+Documentation
+=============
+You can find documentation for the SIMDIS SDK on the `Read the Docs site`_.
