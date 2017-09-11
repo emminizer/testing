@@ -46,7 +46,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'SIMDIS SDK'
-copyright = u'2017, US Naval Research Laboratory, Code 5773'
+copyright = u'2017'
 author = u'US Naval Research Laboratory, Code 5773'
 
 # The version info for the project you're documenting, acts as replacement for

@@ -42,7 +42,7 @@ Installation
 The SIMDIS SDK is provided as a package containing C++ source code for use
 with Windows and Linux operating systems.  Precompiled binaries for use with
 Microsoft Visual Studio have also been provided for your convenience.  See
-the file [INSTALL.md](INSTALL.md) for detailed information about supported
+the `Installation <install>`_ page for detailed information about supported
 systems/compilers, third party dependencies, and installation instructions.
 
 
@@ -73,7 +73,7 @@ easy to distribute file.
    :maxdepth: 2
    :caption: Pages
 
-   test
+   install
 
 
 
