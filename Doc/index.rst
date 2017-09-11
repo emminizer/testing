@@ -75,11 +75,3 @@ easy to distribute file.
 
    install
 
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
